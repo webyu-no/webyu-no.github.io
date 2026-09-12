@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://webyu-no.github.io/">
+<meta property="og:title" content="Web YU-NO">
+<meta property="og:description" content="Play YU-NO in your web browser, on PC or mobile.">
+<meta property="og:image" content="https://webyu-no.github.io/embedicon.png">
+<meta property="og:image:secure_url" content="https://webyu-no.github.io/embedicon.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="256">
+<meta property="og:image:height" content="256">
+<meta property="og:image:alt" content="Web YU-NO logo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Web YU-NO">
+<meta name="twitter:description" content="Play YU-NO in your web browser, on PC or mobile.">
+<meta name="twitter:image" content="https://webyu-no.github.io/embedicon.png">
+<link rel="canonical" href="https://webyu-no.github.io/">
+<title>Web YU-NO</title>
+<link rel="icon" href="webyuno.ico?v=20260912.4" sizes="any">
+<link rel="stylesheet" href="style.css?v=20260912.4">
+<main id="stage">
+  <div id="viewport">
+    <canvas id="display" width="640" height="400" aria-hidden="true"></canvas>
+    <canvas id="canvas" width="640" height="400" tabindex="0" aria-label="YU-NO game. Click to capture the pointer; Escape releases it."></canvas>
+  </div>
+  <div id="loading" role="progressbar" aria-label="Loading game" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div id="loading-label">Web YU-NO is loading files...</div>
+    <div id="loading-progress"></div>
+    <div id="loading-credit">thanks to <a href="https://github.com/nunuhara" target="_blank" rel="noopener noreferrer">nunuhara</a>'s <a href="https://github.com/nunuhara/ai5-sdl2" target="_blank" rel="noopener noreferrer">ai5-sdl2</a>, and <a href="https://vndb.org/r5630" target="_blank" rel="noopener noreferrer">TLWiki's english patch</a></div>
+  </div>
+</main>
+<img id="download-indicator" src="dlicon.png?v=20260912.4" alt="Downloading game files" hidden>
+<script src="yuno.js?v=20260912.4"></script>
+<script type="module" src="app.js?v=20260912.4"></script>
+</html>

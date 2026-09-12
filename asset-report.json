@@ -1,0 +1,16 @@
+{
+  "originalBytes": 2516800624,
+  "packedBytes": 779618821,
+  "music": "opus",
+  "opusBitrateKbps": 128,
+  "musicBitrateKbps": 128,
+  "effectBitrateKbps": 64,
+  "vorbisTranscoded": false,
+  "vorbisHeaderTemplates": 2,
+  "assetCount": 33518,
+  "batchCount": 169,
+  "bootstrapBatchCount": 31,
+  "residentAssetCount": 8,
+  "residentBatchCount": 1,
+  "shippedSaveFiles": 28
+}
